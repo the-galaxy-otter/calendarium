@@ -1,12 +1,8 @@
-from timeline import Timeline, TimelineRegistry
-from timespot import Timespot, TimespotUnit, DEFAULT_TIMESPOT_UNIT_SET
-from timerange import Timerange
+from calendarium.timelines.TimelineRepresentationUnits import TimelineRepresentationUnits
+from calendarium.timelines.TimelineRepresentor import TimelineRepresentor, DEFAULT_UNIT_SET
 
 __all__ = [
-    "Timeline",
-    "TimelineRegistry",
-    "Timespot",
-    "TimespotUnit",
-    "DEFAULT_TIMESPOT_UNIT_SET",
-    "Timerange",
+    "TimelineRepresentationUnits",
+    "TimelineRepresentor",
+    "DEFAULT_UNIT_SET"
 ]
